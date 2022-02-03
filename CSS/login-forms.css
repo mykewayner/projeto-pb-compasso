@@ -1,0 +1,19 @@
+.login-form h2{
+    font-size: 2em;
+    margin: 1em 0;
+
+
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.login-input{
+    margin-bottom: 1.5em;
+}
+.password-input{
+    margin-bottom: 1.5em;
+}
