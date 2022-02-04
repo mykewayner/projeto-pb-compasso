@@ -5,12 +5,18 @@
 }
 
 .intro {
-    padding: 1em;
-    font-size: 1.1em;
+    margin: 1em;   
 }
+
+.intro p {
+    max-width: 300px;
+
+}
+
 
 .intro h1 {
     font-size: 2em;
+    margin-bottom: 0.4em;
 }
 
 
