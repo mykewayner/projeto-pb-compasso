@@ -48,6 +48,9 @@
 .image-background {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
+}
+
+.logo {
+    width: 50%;
 }
