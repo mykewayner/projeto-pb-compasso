@@ -1,8 +1,7 @@
 .login-form h2{
+    font-weight: 400;
     font-size: 2em;
     margin:  0;
-    font-weight: 400;
-
 }
 
 .login-form{
@@ -10,32 +9,52 @@
     flex-direction: column;
     justify-content: space-around;
     width: 50%;
-    position: relative;
     height: 50%;
+    position: relative;
 }
 
 
 .login-box-input{
     background-color: transparent;
+    border: solid 1px #e0e0e0ec; 
+    box-sizing: border-box;
     border-radius: 50px;
+    color: #e0e0e0ec;
+    padding-left: 20px;
+    font-size: 1.2em;
     height: 60px;
     width: 100%;
-    font-size: 1.2em;
-    border: solid 1px #E0E0E0;
-    color: #E0E0E0;
-    padding-left: 20px;
-    box-sizing: border-box;
+
+
+
+}
+
+.login-input {
+    position: relative;
+}
+
+.password-input {
+    position: relative;    
+}
+
+
+.login-icon{
+    position: absolute;
+    width: 20px;    
+    right: 5%;
+    top: 35%;
+
 }
 
 .login-form button {
-    cursor: pointer;
-    color: #E0E0E0;
     background: linear-gradient(90deg, #FF2D04 0%, #C13216 100%);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
     border-radius: 50px;
-    border: 0;
-    height: 15%;
-    font-size: 1.2em;
     font-weight: bold;
+    color: #E0E0E0;
+    font-size: 1.2em;
+    cursor: pointer;
+    height: 15%;
+    border: 0;
 
 }
