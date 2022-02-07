@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <script type="module" src="index.js" defer></script>
 
 
 </head>
@@ -16,7 +17,7 @@
 <body>
     <main>
 
-        <section class="container">
+        <section class="login-page">
             <div class="left-container">
 
                 <div class="intro">
@@ -34,7 +35,11 @@
                         <input type="password" placeholder="Senha" class="login-box-input">
                         <img src="./assets/icon-password.png" class="login-icon" alt="ícone de Senha">
                     </div>
-                    <button>Continuar</button>
+                    <div id="error-msg">
+                            <p class="error-msg-visibility">Ops, usuário ou senha inválidos.<br> Tente novamente.</p>
+                    </div>
+                    
+                    <button id="continue-button">Continuar</button>
 
                 </div>
 
@@ -46,8 +51,12 @@
                 </div>
             </div>
 
-            </div>
+        </section>
 
+        <section class="home-page">
+            <h1>TESTE</h1>
+            <p>teste 2</p>
+        </section>
 
 
 
@@ -58,6 +67,9 @@
 
 
     </main>
+
+
+
 </body>
 
 </html>
