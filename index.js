@@ -1,1 +1,3 @@
-import login from /scripts/login.js
+
+import login from './scripts/login.js'
+login()
