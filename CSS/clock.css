@@ -1,0 +1,12 @@
+#home-clock{
+    text-align: center;
+}
+#home-clock h1{
+    font-size: 100px;
+    font-weight: bold;
+}
+#home-clock p{
+    font-size: 12px;
+    font-weight: bold;
+   
+}
