@@ -1,38 +1,31 @@
 .home-footer{
-    display: flex;
+    display: grid;
     background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
+    grid-template-columns: 15.6% 28.6% 7.8% 5.5% 5% 23.5% 7% 7%;
     position: absolute;
-    height: 10%;
     bottom: 0;
+    height: 10%;
     color: white;
     width: 100%;
     align-items: center;
     
 }
 
-#footer{
-    display: grid;
-    grid-template-columns: 15.6% 28.6% 7.8% 5.5% 5% 23.5% 7% 7%;
-    position: relative;
-
-
-}
-
 #footer-txt{
+    display: flex;
     grid-column: 2;
     font-size: 10px;
+    align-items: center;
     text-align: right;
-    position: relative;
-    top: 8px;
     
 }
 
 #footer-refresh-txt{
     position: relative;
+    align-items: center;
     font-size: 12px;
     grid-column: 4;
     text-align: right;
-    top: 10px;
 
 }
 
@@ -45,26 +38,56 @@
 }
 
 #refresh-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 16px;
+    padding-left: 50%;
     grid-column: 5;
     
 }
 
+
 #refresh-time{
-    text-align: center;
     font-weight: bold;
     font-size: 28px;
 }
 
 #continuar-txt{
     grid-column: 7;
-    background: white;
+    display: flex;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
     color: #C13216;
-
-    
-
+    font-size: 16px;
+    height: 100%;
 
 }
 
+
+
+
 #logout-button{
+    display: flex;
+    flex-direction: row;
+    background-color: #1C1D20;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
     grid-column: 8;
+}
+
+#logout-button button{
+    position: relative;
+    background-color: transparent;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    border: 0;
+    width: 100%;
 }
