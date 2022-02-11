@@ -58,11 +58,13 @@
 .home-page-txt h1 {
     color: #C12D18;
     font-size: 2em;
+    font-weight: bold;
 
     
 }
 .home-page-txt h3{
     color: #C12D18;
     font-size: 1.5em;
+    font-weight: bold;
 
 }
