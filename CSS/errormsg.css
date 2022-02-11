@@ -1,0 +1,10 @@
+.error-msg-visibility{
+    visibility: hidden;
+    
+}
+
+#error-msg {
+    text-align: center;
+    color: #E9B425;
+
+}
