@@ -35,6 +35,7 @@
     position: absolute;
     border-right: white 1px solid;
     height: 50px;
+    top: 10%;
     width: 10px;
     left: 45%;
 }
