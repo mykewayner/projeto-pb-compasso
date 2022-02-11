@@ -27,6 +27,7 @@
 
 }
 
-.weather-icon {
+.weather-icon img{
+    width: 70%;
     
 }
