@@ -6,6 +6,7 @@ export default function login() {
     const errorMsg = document.querySelector("#error-msg p")
     const loginPage = document.querySelector(".login-page")
     const homePage = document.querySelector(".home-page")
+    const title = document.querySelector("#title")
 
     button.addEventListener("click", () => {
         if (user.value !== "admin" && password.value !== "admin"){
@@ -17,6 +18,7 @@ export default function login() {
         else{
             loginPage.style.display = "none"
             homePage.style.display = "flex"
+            title.textContent = "HomePage"
         }
     }
     )
