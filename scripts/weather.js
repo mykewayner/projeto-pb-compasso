@@ -5,8 +5,13 @@ export default function weather() {
     .then(data =>{
       const location = document.querySelector('.location p')
       const temperature = document.querySelector('.temperature p')
-      location.textContent = `${data.location.name}`
+      const icon = document.querySelector('.weather-icon img')
+      location.textContent = `${data.location.name} - MG`
       temperature.textContent = `${data.current.temp_c.toFixed(0)}`
+      icon.src = data.current.condition.icon
+      
+      
+
       
     })
   }
