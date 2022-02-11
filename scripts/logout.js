@@ -1,12 +1,13 @@
 export default function logout(){
-    const time = document.querySelector('.refresh-time')
-    const number = 600
-    const button = document.querySelector('.logout-button button')
+    const time = document.querySelector('#refresh-time');
+    const button = document.querySelector('#logout-button button');
+    let seconds = 600;
+    
 
     setInterval(() => {
-        time.innerHTML = number 
-        number--
-        if(number === 0){
+        time.innerHTML = seconds 
+        seconds--
+        if(seconds === 0){
           window.location.reload()
         }
     }, 1000);
@@ -14,7 +15,6 @@ export default function logout(){
     button.addEventListener("click", () => {
         window.location.reload();
     }
-
     )
 
 
