@@ -1,13 +1,15 @@
 .home-footer{
+    position: relative;
     display: grid;
-    background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
     grid-template-columns: 15.6% 28.6% 7.8% 5.5% 5% 23.5% 7% 7%;
-    position: absolute;
+    background: linear-gradient(90.16deg, #33383d 0%, #1c1d20 100%);
+    height: 100%;
+    font-size: 0.7em;
+    color: #ffffff;
+    position: fixed;
+    width: 100%;
     bottom: 0;
     height: 10%;
-    color: white;
-    width: 100%;
-    align-items: center;
     
 }
 
@@ -21,7 +23,7 @@
 }
 
 #footer-refresh-txt{
-    position: relative;
+    display: flex;
     align-items: center;
     font-size: 12px;
     grid-column: 4;
@@ -33,6 +35,7 @@
     position: absolute;
     border-right: white 1px solid;
     height: 50px;
+    top: 10%;
     width: 10px;
     left: 45%;
 }
@@ -49,6 +52,7 @@
 }
 
 
+
 #refresh-time{
     font-weight: bold;
     font-size: 28px;
@@ -63,8 +67,14 @@
     text-align: center;
     font-weight: bold;
     color: #C13216;
-    font-size: 12px;
+    font-size: 9px;
     height: 100%;
+    overflow: hidden;
+    width: 100%;
+
+}
+#continuar-txt p{
+    min-width: 80px;
 
 }
 
@@ -80,14 +90,19 @@
     text-align: center;
     cursor: pointer;
     grid-column: 8;
+    min-width: 80px;
 }
 
 #logout-button button{
-    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
     background-color: transparent;
     color: #FFFFFF;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 12px;
     border: 0;
     width: 100%;
+
+
 }
